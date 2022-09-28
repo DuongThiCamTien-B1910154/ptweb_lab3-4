@@ -71,3 +71,4 @@ class ContactService {
 }
 
 module.exports = ContactService;
+
