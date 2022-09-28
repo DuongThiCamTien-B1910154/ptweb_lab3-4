@@ -126,6 +126,7 @@ exports.findAllFavorite = async (_req, res, next) => {
     );
   }
 };
+
 exports.deleteAll = async (_req, res, next) => {
   try {
     const contactService = new ContactService(MongoDB.client);
