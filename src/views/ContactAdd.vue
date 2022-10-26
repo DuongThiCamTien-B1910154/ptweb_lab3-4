@@ -32,19 +32,6 @@ export default {
     };
   },
   methods: {
-    // initContact() {},
-    // async addContact(data) {
-    //     console.log("input: ", data);
-    //     const [error, response] = await this.handle(
-    //         ContactService.create(data)
-    // );
-    // if (error) {
-    //     console.log(error);
-    // } else {
-    //     console.log(response.data);
-    //     this.message = "Liên hệ được thêm thành công.";
-    // }
-
     async addContact(data) {
       try {
         console.log("ok888");
